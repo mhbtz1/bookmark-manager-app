@@ -23,7 +23,7 @@ const tags = [
 
 
 export const Sidebar = () => {
-    return <div className="border-r-2 border-gray-200 h-full">
+    return <div className="border-r-2 border-gray-200 h-full w-[10vw]">
         <div className="flex flex-col items-center"> <h2 className=""> Bookmark Manager </h2> </div>
         <div className="flex flex-col items-center h-full">
             <div className="m-3 border rounded-md bg-gray-300 hover:bg-gray-100"> <Link href="/" className="text-sm font-medium"> Home </Link> </div>
