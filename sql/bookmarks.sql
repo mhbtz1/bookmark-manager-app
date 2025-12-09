@@ -1,0 +1,6 @@
+CREATE TABLE bookmarks (
+    id SERIAL PRIMARY KEY AUTO INCREMENT
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+    title TEXT
+    description TEXT
+);
